@@ -1,0 +1,32 @@
+{
+  "name": "easy-paginate",
+  "version": "1.0.0",
+  "description": "a simple package that helps you implment pagination system",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dev-pengi/mark-parse.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "build:watch": "tsc --watch"
+  },
+  "files": [
+    "lib/**/*"
+  ],
+  "keywords": [
+    "arrays",
+    "array-splitting",
+    "pagination",
+    "paginate",
+    "index"
+  ],
+  "author": "pengi-dev",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "typescript": "^5.0.4"
+  }
+}
